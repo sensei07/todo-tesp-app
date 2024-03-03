@@ -1,0 +1,42 @@
+{
+  "todos": [
+    {
+      "id": "1",
+      "title": "Todo 1",
+      "description": "Todo description 1",
+      "status": "NEW"
+    },
+    {
+      "id": "2",
+      "title": "Todo 2",
+      "description": "Todo description 2",
+      "status": "IN_PROGRESS"
+    },
+    {
+      "id": "3",
+      "title": "Todo 3",
+      "description": "Todo description 3",
+      "status": "COMPLETED"
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "username": "admin",
+      "password": "123",
+      "roles": [
+        "ADMIN"
+      ],
+      "features": {
+        "isTodoRatingEnabled": true,
+        "isCounterEnabled": true,
+        "isAppRedesigned": true
+      },
+      "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXrng5jnbVDDIFRd0vG8MUaYfmgcXGGkQkUsV97qvdZA&s",
+      "jsonSettings": {
+        "isTodosPageWasOpened": true,
+        "theme": "app_light_theme"
+      }
+    }
+  ]
+}
